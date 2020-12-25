@@ -1,0 +1,59 @@
+.background {
+  viewport-fill: black;
+}
+
+#time {
+  font-size: 100;
+  font-family: SevilleSharp-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  fill: white;
+}
+
+#date {
+  font-size: 30;
+  font-family: Seville-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  fill: white;
+}
+
+#battery {
+  font-size: 20;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  fill: white;
+}
+
+#heart-rate {
+  font-size: 30;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  fill: white;
+}
+
+#steps {
+  font-size: 30;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  fill: white;
+}
+
+#calories {
+  font-size: 30;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  fill: white;
+}
+
+#distance {
+  font-size: 30;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  fill: white;
+}

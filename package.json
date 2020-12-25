@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "3a551f2e-6c24-407c-81ff-ffcb6532c66c",
+    "appType": "clockface",
+    "appDisplayName": "Starter Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#2ac918",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Starter Clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
