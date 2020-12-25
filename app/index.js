@@ -40,7 +40,7 @@ clock.ontick = function (event) {
   const date = event.date;
   const hours = util.zeroPad(date.getHours());
   const minutes = util.zeroPad(date.getMinutes());
-  timeLbl.text = `${hours}: ${minutes} `;
+  timeLbl.text = `${hours}:${minutes} `;
   dateLbl.text = util.getDateAsString();
 
   battery.setLevel();
