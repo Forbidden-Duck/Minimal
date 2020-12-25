@@ -24,9 +24,13 @@ const dataTypes = ["steps", "distance", "calories"];
 function updateType(type) {
   const typeLbl = document.getElementById(type);
   if (type === "distance") {
-    typeLbl.text = `${(userActivity.today.adjusted[type] * 0.000621371192).toFixed(2)}${units.distance === "metric" ? "km" : "mi"}`;
+    if (units.distance === "metric") {
+      typeLbl.text = `${(userActivity.today.adjusted[type] / 1000).toFixed(2)}km`;
+    } else {
+      typeLbl.text = `${(userActivity.today.adjusted[type] / 1609).toFixed(2)}mi`;
+    }
   } else {
-    typeLbl.text = userActivity.today.adjusted[type];
+    typeLbl.text = userActivity.today.adjusted[type].toLocaleString("en-US");
   }
 }
 

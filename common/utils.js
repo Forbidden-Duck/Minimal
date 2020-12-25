@@ -34,7 +34,7 @@ export function getDay() {
 }
 
 export function getDateAsString() {
-  return `${getMonth()} ${getDayStr()} ${ordinalSuffix(getDay())}`;
+  return `${getDayStr()} ${getMonth()} ${ordinalSuffix(getDay())}`;
 }
 
 export function ordinalSuffix(day) {
