@@ -5,11 +5,11 @@
   <image href="images/calories.png" x="10%" y="85%" width="20" height="20" />
   <image href="images/distance.png" x="50%" y="85%" width="20" height="20" />
 
-  <text id="battery" x="11%" y="9%">100%</text>
-  <text id="time" x="50%" y="50%">12:00</text>
-  <text id="date" x="50%" y="60%">JAN MON 1st</text>
-  <text id="heart-rate" x="20%" y="76%">60</text>
-  <text id="steps" x="60%" y="76%">1000</text>
-  <text id="calories" x="20%" y="91%">1500</text>
-  <text id="distance" x="60%" y="91%">2.5km</text>
+  <text id="battery" x="11%" y="9%">---%</text>
+  <text id="time" x="50%" y="50%">--:--</text>
+  <text id="date" x="50%" y="60%">--- --- ---</text>
+  <text id="heart-rate" x="20%" y="76%">---</text>
+  <text id="steps" x="60%" y="76%">----</text>
+  <text id="calories" x="20%" y="91%">----</text>
+  <text id="distance" x="60%" y="91%">-----</text>
 </svg>
