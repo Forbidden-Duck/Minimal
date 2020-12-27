@@ -8,9 +8,9 @@ const MONTHS =
 
 const DAYS =
   [
-    "MON", "TUE", "WED",
-    "THU", "FRI", "SAT",
-    "SUN"
+    "SUN", "MON", "TUE",
+    "WED", "THU", "FRI",
+    "SAT"
   ];
 
 // Add zero in front of numbers < 10
@@ -26,7 +26,8 @@ export function getMonth() {
 }
 
 export function getDayStr() {
-  return DAYS[new Date().getDay() - 1];
+  console.log(new Date().getDay())
+  return DAYS[new Date().getDay()];
 }
 
 export function getDay() {
