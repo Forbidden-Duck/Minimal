@@ -21,7 +21,12 @@ export function init() {
 }
 
 function getHRM() {
-    heartrateLbl.text = hrm.heartRate ? parseInt(hrm.heartRate) < 20 ? hrm.heartRate : "---" : "---";
+    heartrateLbl.text =
+        hrm.heartRate
+            ? parseInt(hrm.heartRate) > 20
+                ? hrm.heartRate
+                : "---"
+            : "---";
 }
 
 function hrmSetup() {
