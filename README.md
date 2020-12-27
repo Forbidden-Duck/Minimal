@@ -1,6 +1,6 @@
 # Minimal
 
-Clock face designed to be as minimalistic as possible. Designed only for Fitbit Versa 2.
+Clock face designed to be as minimalistic as possible. Designed only for Fitbit Versa, Fitbit Versa Lite and Fitbit Versa 2
 
 ![Screenshot](Minimal-screenshot.png)
 

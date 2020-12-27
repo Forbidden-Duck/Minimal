@@ -5,7 +5,7 @@
   "fitbit": {
     "appUUID": "3a551f2e-6c24-407c-81ff-ffcb6532c66c",
     "appType": "clockface",
-    "appDisplayName": "Starter Clock",
+    "appDisplayName": "Minimal",
     "iconFile": "resources/icon.png",
     "wipeColor": "#2ac918",
     "requestedPermissions": [
@@ -13,11 +13,13 @@
       "access_heart_rate"
     ],
     "buildTargets": [
-      "mira"
+      "mira",
+      "gemini",
+      "meson"
     ],
     "i18n": {
       "en-US": {
-        "name": "Starter Clock"
+        "name": "Minimal"
       }
     },
     "defaultLanguage": "en-US"
