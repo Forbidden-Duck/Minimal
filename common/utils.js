@@ -26,7 +26,6 @@ export function getMonth() {
 }
 
 export function getDayStr() {
-  console.log(new Date().getDay())
   return DAYS[new Date().getDay()];
 }
 
