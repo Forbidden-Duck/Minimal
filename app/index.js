@@ -8,7 +8,7 @@ import * as battery from "./battery.js";
 import * as heartMonitor from "./hrm.js";
 import * as util from "../common/utils";
 
-console.log("Starter Clock Loaded!");
+console.log("Minimal Loaded!");
 
 // Update the clock every second
 clock.granularity = "seconds";
