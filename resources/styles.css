@@ -10,6 +10,13 @@
   fill: white;
 }
 
+#timeSuffix {
+  font-size: 40;
+  font-family: SevilleSharp-Regular;
+  text-length: 32;
+  fill: white;
+}
+
 #date {
   font-size: 30;
   font-family: Seville-Bold;
